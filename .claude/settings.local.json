@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run:*)",
+      "Bash(uv add:*)",
+      "Bash(where stockfish:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"from stockfish import Stockfish; print\\(''ok''\\)\")",
+      "Bash(python:*)",
+      "Bash(curl -L -o /c/Users/sarth/stockfish.zip \"https://github.com/official-stockfish/Stockfish/releases/download/sf_17.1/stockfish-windows-x86-64-avx2.zip\")",
+      "Read(//c/Users/sarth/**)",
+      "Bash(unzip -o stockfish.zip -d stockfish_dir)",
+      "Bash(find stockfish_dir -name *.exe)"
+    ]
+  }
+}
